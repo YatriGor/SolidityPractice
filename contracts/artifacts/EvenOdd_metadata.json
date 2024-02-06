@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "hello",
+				"name": "Even_Odd",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,7 +15,20 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "number",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Hello.sol": "Hello"
+			"contracts/EvenOdd.sol": "EvenOdd"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Hello.sol": {
-			"keccak256": "0xa345555c57dd45287b6999c908ed8ad9f023b69db77a6f1af55ca50406831636",
+		"contracts/EvenOdd.sol": {
+			"keccak256": "0xea2f01f2af85c50f6cda84be4728dab2720f1c87c07a5e28a08eb46780bea580",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0665d2a74f2d09ed9ce69841737a05d501dd64c6b0422cad7e8ed9e5aa618873",
-				"dweb:/ipfs/QmTCk5XpBatjhsZKDb8aeQ37NVzFFXboQmKREMwPwPLcTq"
+				"bzz-raw://09022c94bb9277acf4352a09641a00b1a0c932404648575394e479c8e6ee92d7",
+				"dweb:/ipfs/QmSKMEiexa7EuCpisTWPRmNifH6LBpN8zcJnw9GYt9gZfM"
 			]
 		}
 	},
