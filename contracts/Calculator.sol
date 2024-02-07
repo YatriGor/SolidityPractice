@@ -32,5 +32,4 @@ contract Calculator{
         uint div = num1/num2;
         return div;
     }
-
 }
